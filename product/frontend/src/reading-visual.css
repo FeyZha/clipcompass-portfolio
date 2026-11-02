@@ -1,0 +1,45 @@
+.cc-reading-visual { margin-top: 18px; }
+.cc-concept-route { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 24px; font-size: 13px; }
+.cc-concept-route > strong { padding: 12px 14px; border-radius: 8px; background: #edf2e9; font-size: 14px; font-weight: 600; }
+.cc-concept-route small { margin: 0 5px; color: var(--cc-muted); }
+.cc-concept-choices { display: flex; flex-wrap: wrap; gap: 18px; border-bottom: 1px solid var(--cc-border); }
+.assistant-page .cc-concept-choices button { padding: 8px 0; border: 0; border-bottom: 2px solid transparent; background: transparent; color: var(--cc-muted); font-size: 13px; cursor: pointer; }
+.assistant-page .cc-concept-choices button[aria-pressed="true"] { color: var(--cc-ink); border-bottom-color: var(--cc-scene); font-weight: 600; }
+.cc-concept-explanation { margin: 14px 0 20px; font-size: 13px; line-height: 1.8; min-height: 3.6em; }
+.cc-convolution-diagram { display: flex; align-items: center; justify-content: space-between; gap: 9px; padding: 8px 0 16px; }
+.cc-convolution-stage { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; }
+.cc-convolution-diagram[data-concept="local"] .cc-pixel-input,
+.cc-convolution-diagram[data-concept="sharing"] .cc-pixel-kernel,
+.cc-convolution-diagram[data-concept="map"] .cc-pixel-output { outline: 1px solid #9bbb9b; outline-offset: 6px; border-radius: 3px; }
+.cc-convolution-stage > span { color: var(--cc-ink); font-size: 12px; white-space: nowrap; }
+.cc-convolution-stage > small { color: var(--cc-muted); font-size: 11px; }
+.cc-pixel-grid { display: grid; position: relative; gap: 2px; }
+.cc-pixel-input { grid-template-columns: repeat(6, 30px); }
+.cc-pixel-kernel { grid-template-columns: repeat(3, 30px); }
+.cc-pixel-output { grid-template-columns: repeat(4, 30px); }
+.cc-pixel { display: grid; place-items: center; height: 30px; border-radius: 3px; background: #f0f1ed; color: #7c857c; font-size: 13px; line-height: 1; font-variant-numeric: tabular-nums; }
+.cc-pixel.is-one { background: #d5dcd3; color: #344c3d; }
+.cc-pixel.in-window { background: #deeadb; color: #344c3d; }
+.cc-pixel.in-window.is-one { background: #9bbb9b; color: #163622; }
+.cc-pixel.is-weight { background: #dfebe0; color: #234d40; font-weight: 650; }
+.cc-pixel.is-response { background: #234d40; color: #fffefa; font-weight: 650; outline: 2px solid #234d40; outline-offset: 1px; }
+.cc-receptive-window { position: absolute; width: 50%; height: 50%; border: 2px solid #3f7753; border-radius: 4px; pointer-events: none; }
+.cc-convolution-arrow { color: var(--cc-muted); font-size: 20px; }
+.cc-window-control { display: block; padding-top: 12px; border-top: 1px solid var(--cc-border); }
+.cc-window-control > span { display: flex; justify-content: space-between; gap: 18px; font-size: 12px; }
+.cc-window-control output { color: var(--cc-muted); font-variant-numeric: tabular-nums; }
+.cc-window-control input { display: block; width: 100%; margin: 12px 0; accent-color: var(--cc-scene); cursor: pointer; }
+.cc-concept-footer { display: flex; align-items: center; justify-content: space-between; gap: 12px; color: var(--cc-muted); font-size: 11px; line-height: 1.8; }
+.cc-response-rule { margin: 8px 0 12px; color: var(--cc-muted); font-size: 11px; }
+.cc-video-route { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 20px; margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--cc-border); }
+.cc-video-route > span { display: flex; align-items: baseline; gap: 9px; font-size: 12px; line-height: 1.8; }
+.cc-video-route small { color: var(--cc-muted); font-variant-numeric: tabular-nums; }
+.cc-original-overview { margin-top: 20px; font-size: 12px; color: var(--cc-muted); }
+.cc-original-overview summary { cursor: pointer; }
+.cc-original-overview > .cc-video-reading-body { margin-top: 16px; color: var(--cc-text); }
+@media (max-width: 1100px) and (min-width: 821px) {
+  .cc-pixel-input, .cc-pixel-kernel, .cc-pixel-output { grid-template-columns: repeat(var(--cc-grid-size), 18px); }
+  .cc-pixel { height: 18px; font-size: 11px; }
+  .cc-concept-route { flex-wrap: wrap; }
+}
+.cc-pixel-input { --cc-grid-size: 6; }.cc-pixel-kernel { --cc-grid-size: 3; }.cc-pixel-output { --cc-grid-size: 4; }

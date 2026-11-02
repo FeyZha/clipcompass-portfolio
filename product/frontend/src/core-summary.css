@@ -1,0 +1,16 @@
+.cc-core-summary { --color-muted-foreground: var(--cc-muted); --color-border: var(--cc-border); --color-muted: #f2f3ee; --note-editor-font-size: 15px; }
+.cc-anarlog-note { font-size: 15px; line-height: 1.9; overflow-wrap: anywhere; }
+.cc-anarlog-note > h1 { font-size: 20px; line-height: 1.6; margin-bottom: 14px; font-weight: 650; }
+.cc-anarlog-note > h1:not(:first-child) { margin-top: 34px; }
+.cc-anarlog-note li { line-height: 1.9; }
+.cc-anarlog-note .cc-summary-math { font-size: .95em; }
+.cc-anarlog-note .cc-math-block, .cc-anarlog-note .katex-display { max-width: 100%; overflow-x: auto; overflow-y: hidden; }
+.cc-anarlog-note .katex-display { margin: .7em 0; }
+.cc-core-summary > footer { margin-top: 36px; padding-top: 20px; border-top: 1px solid var(--cc-border); color: var(--cc-muted); font-size: 12px; }
+.cc-core-summary-empty { line-height: 1.9; }
+.cc-core-time-markers { display: inline-flex; flex-wrap: wrap; gap: 6px; margin-left: 12px; vertical-align: middle; }
+.assistant-page .cc-core-time { cursor: pointer; font-family: inherit; font-weight: 400; }
+.assistant-page .cc-core-time:hover, .assistant-page .cc-core-time[aria-pressed="true"] { background: #e4e7ec; color: #424b59; }
+.cc-reading-tabs { display: flex; gap: 24px; padding: 0 28px; border-bottom: 1px solid var(--cc-border); flex: 0 0 auto; }
+.assistant-page .cc-reading-tabs button { border: 0; border-bottom: 2px solid transparent; border-radius: 0; background: transparent; padding: 17px 0 14px; color: var(--cc-muted); font-size: 14px; cursor: pointer; }
+.assistant-page .cc-reading-tabs button[aria-selected="true"] { color: var(--cc-ink, #183c32); border-bottom-color: currentColor; font-weight: 650; }

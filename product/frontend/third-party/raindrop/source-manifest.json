@@ -1,0 +1,195 @@
+{
+  "repository": "https://github.com/raindropio/app",
+  "revision": "94ba9cbb88002987ed49cbc3848c93d396ae47a1",
+  "commit_date": "2026-10-26T10:32:38Z",
+  "version": "5.8.4",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2024 Rustem Mussabekov",
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "git_blob_sha": "55f7cde1d631517d2e2f3e59575c90c0b70ce68d",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/LICENSE.md"
+    },
+    {
+      "path": "src/co/screen/basic/themes.module.css",
+      "git_blob_sha": "048a69f5fcab06d56dbd9486d9eccbdc35f6c39c",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/screen/basic/themes.module.css"
+    },
+    {
+      "path": "src/co/screen/basic/size.module.css",
+      "git_blob_sha": "caeebfffd09d8c6687ae170a18e595c5b8b320c3",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/screen/basic/size.module.css"
+    },
+    {
+      "path": "src/co/screen/splitview/index.module.styl",
+      "git_blob_sha": "b69e2ff870a83dd88e40a4aa4d1429c30263e5e5",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/screen/splitview/index.module.styl"
+    },
+    {
+      "path": "src/co/screen/splitview/sidebar/index.module.styl",
+      "git_blob_sha": "fa50b31961e8ece5c132e2b6285a29af34ff6b21",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/screen/splitview/sidebar/index.module.styl"
+    },
+    {
+      "path": "src/co/common/header/index.module.styl",
+      "git_blob_sha": "fd1e6aeafd86b31afd8dd0b6981a60cdb3536f87",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/common/header/index.module.styl"
+    },
+    {
+      "path": "src/co/screen/splitview/reader/index.module.styl",
+      "git_blob_sha": "5b3bdc7fd0b65f27b2bddabc2879082d441ecd11",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/screen/splitview/reader/index.module.styl"
+    },
+    {
+      "path": "src/co/screen/splitview/reader/content.module.styl",
+      "git_blob_sha": "660b54e0860afdf8c2dfb37dcc9d8d97b4312a39",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/screen/splitview/reader/content.module.styl"
+    },
+    {
+      "path": "src/co/screen/splitview/reader/header.js",
+      "git_blob_sha": "100c112fa99cb8e3698410aca263a908cba54f58",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/screen/splitview/reader/header.js"
+    },
+    {
+      "path": "src/routes/my/item/layout.js",
+      "git_blob_sha": "cde827372492e6a45c12a5fff8153f3787369894",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/routes/my/item/layout.js"
+    },
+    {
+      "path": "src/routes/my/sidebar/profile/index.module.styl",
+      "git_blob_sha": "9ec0f6542e67d403750bbb97d4bffe1095b6d633",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/routes/my/sidebar/profile/index.module.styl"
+    },
+    {
+      "path": "src/co/screen/splitview/main/content.module.styl",
+      "git_blob_sha": "26d799434e2d9dc8ecb509fb14737fa86d5c66cd",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/screen/splitview/main/content.module.styl"
+    },
+    {
+      "path": "src/co/screen/basic/index.module.css",
+      "git_blob_sha": "af792343cb880f7191453442d20ed686830b7b2c",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/screen/basic/index.module.css"
+    },
+    {
+      "path": "src/co/common/list/item.module.styl",
+      "git_blob_sha": "33ec721fabee90539fd18b15f016eb49e06fd594",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/common/list/item.module.styl"
+    },
+    {
+      "path": "src/co/common/list/item.js",
+      "git_blob_sha": "e9db15423b7fc45448c4bf4b7209b42767bb50a0",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/common/list/item.js"
+    },
+    {
+      "path": "src/co/common/list/section.module.styl",
+      "git_blob_sha": "7227d34b26addf94829f98a8e4fc03b9f6d93a07",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/common/list/section.module.styl"
+    },
+    {
+      "path": "src/co/bookmarks/items/view/list.module.styl",
+      "git_blob_sha": "9d834aed09d3100f72cc8ed57d6181368195e2bb",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/bookmarks/items/view/list.module.styl"
+    },
+    {
+      "path": "src/co/bookmarks/items/view/list.js",
+      "git_blob_sha": "728d167db619be1c6ac13f643f3aff3b6d237d07",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/bookmarks/items/view/list.js"
+    },
+    {
+      "path": "src/co/bookmarks/items/view/index.js",
+      "git_blob_sha": "d63576e16db2cf1a69a3dcf413de66a07f26bbe1",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/bookmarks/items/view/index.js"
+    },
+    {
+      "path": "src/routes/my/item/tab/preview.module.styl",
+      "git_blob_sha": "133fa00c2d8871c86f6b9d0cc1a7af23d84ab304",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/routes/my/item/tab/preview.module.styl"
+    },
+    {
+      "path": "src/routes/my/item/tab/preview.js",
+      "git_blob_sha": "8253b130b508f4311807aadb027ff0e106a4da49",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/routes/my/item/tab/preview.js"
+    },
+    {
+      "path": "src/routes/my/item/toolbar/index.js",
+      "git_blob_sha": "d8e63a05afba92e136275276dbd6b021b6e4fd6f",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/routes/my/item/toolbar/index.js"
+    },
+    {
+      "path": "src/routes/my/sidebar/profile/index.js",
+      "git_blob_sha": "eeadb68bab3fde7c959e95b26f5e15da283cadf8",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/routes/my/sidebar/profile/index.js"
+    },
+    {
+      "path": "src/routes/my/sidebar/index.js",
+      "git_blob_sha": "aac898a1757854b1e33e30c035f712a532dcf0ab",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/routes/my/sidebar/index.js"
+    },
+    {
+      "path": "src/co/bookmarks/item/view.module.styl",
+      "git_blob_sha": "c0c306ff9521c6488b7b431833d0b192d7e7ed3e",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/bookmarks/item/view.module.styl"
+    },
+    {
+      "path": "src/co/bookmarks/item/view.js",
+      "git_blob_sha": "d9a30f28ebe735ececb3bd6947110967f204530b",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/bookmarks/item/view.js"
+    },
+    {
+      "path": "src/co/bookmarks/item/info/index.module.styl",
+      "git_blob_sha": "35a73e255a2ba50941804f6ed57d29558f6fc535",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/bookmarks/item/info/index.module.styl"
+    },
+    {
+      "path": "src/co/bookmarks/item/cover/view.module.styl",
+      "git_blob_sha": "603071d353c4c6ed531ab15759afb153ded5901f",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/bookmarks/item/cover/view.module.styl"
+    },
+    {
+      "path": "src/co/bookmarks/item/tags.module.styl",
+      "git_blob_sha": "9e76ceff831d8b9a1ab84e7d8d56e7b8652d17a4",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/bookmarks/item/tags.module.styl"
+    },
+    {
+      "path": "src/co/common/tabs/index.module.styl",
+      "git_blob_sha": "1163132f0fe73fef8a48dde9ebca7585ec451914",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/common/tabs/index.module.styl"
+    },
+    {
+      "path": "src/co/common/button/index.module.styl",
+      "git_blob_sha": "eb53397a48d2abf025c050d2ba76c1c0ba0d344f",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/common/button/index.module.styl"
+    },
+    {
+      "path": "src/co/common/header/index.js",
+      "git_blob_sha": "130a63e9fb01459c499e9da8778b525b4745ee48",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/common/header/index.js"
+    },
+    {
+      "path": "src/co/screen/splitview/sidebar/index.js",
+      "git_blob_sha": "209cbc98e8e2637935cafc75c9af8a0c71b04dbe",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/screen/splitview/sidebar/index.js"
+    },
+    {
+      "path": "src/co/screen/splitview/sidebar/header.js",
+      "git_blob_sha": "86c32ad438e607124a3430dbb594ba2bc0afb4fa",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/screen/splitview/sidebar/header.js"
+    },
+    {
+      "path": "src/routes/my/space/header/index.js",
+      "git_blob_sha": "df04a1a56e5e7faede087f4c216cb1b8dcd40ede",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/routes/my/space/header/index.js"
+    },
+    {
+      "path": "src/co/user/profile/button.js",
+      "git_blob_sha": "5b675a5e78af704f39edf367d777f675e7661089",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/user/profile/button.js"
+    },
+    {
+      "path": "src/co/common/tabs/index.js",
+      "git_blob_sha": "a9f6f0df75338828129dfd26bf8d41e6e158f7dd",
+      "url": "https://github.com/raindropio/app/blob/94ba9cbb88002987ed49cbc3848c93d396ae47a1/src/co/common/tabs/index.js"
+    }
+  ]
+}

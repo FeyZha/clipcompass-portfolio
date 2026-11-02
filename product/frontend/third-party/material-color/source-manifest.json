@@ -1,0 +1,25 @@
+{
+  "repository": "https://github.com/material-components/material-web",
+  "commit": "b256e6f94b92f77e419668b1f641af3f6fa2af61",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "path": "tokens/versions/v0_192/_md-ref-palette.scss",
+      "local": "_md-ref-palette.scss",
+      "source": "https://raw.githubusercontent.com/material-components/material-web/b256e6f94b92f77e419668b1f641af3f6fa2af61/tokens/versions/v0_192/_md-ref-palette.scss",
+      "sha256": "9208b47a2e67a9060a6d3440428a8ff0265e747d96477ae1b56dc7931d69f0d3"
+    },
+    {
+      "path": "tokens/versions/v0_192/_md-sys-color.scss",
+      "local": "_md-sys-color.scss",
+      "source": "https://raw.githubusercontent.com/material-components/material-web/b256e6f94b92f77e419668b1f641af3f6fa2af61/tokens/versions/v0_192/_md-sys-color.scss",
+      "sha256": "aa0c2dc244989edcb1bb2af169a87d290e5303a7e945720cd2c21c8bdb103670"
+    },
+    {
+      "path": "LICENSE",
+      "local": "LICENSE",
+      "source": "https://raw.githubusercontent.com/material-components/material-web/b256e6f94b92f77e419668b1f641af3f6fa2af61/LICENSE",
+      "sha256": "295cdb4364b782931c914f5ca8c47fac87c732fa7e448b788a47aa5b25728212"
+    }
+  ]
+}

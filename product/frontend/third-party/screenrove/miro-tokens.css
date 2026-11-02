@@ -1,0 +1,12 @@
+/* Screenrove independent reference tokens. Desktop observations, 2026-10-02. */
+/* Marketing: observed colors; scope explicitly. */
+[data-design="miro-marketing"] {
+  --font-sans: "modern geometric sans", system-ui, sans-serif;
+  --canvas: #f7f7f9;
+  --primary-text: #1f1f1f;
+  --muted-text: #5a5a63;
+  --miro-yellow: #ffd02f;
+  --action-blue: #4262ff;
+  --soft-ai-wash: #f6eefc;
+  --border: #e6e6eb;
+}

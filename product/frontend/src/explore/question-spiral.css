@@ -1,0 +1,38 @@
+.discovery-results{min-width:0}
+.discovery-toolbar{display:flex;align-items:center;justify-content:space-between;gap:15px;border-bottom:1px solid var(--line);padding-bottom:15px}
+.discovery-toolbar .discovery-summary{padding:0;border:0}
+.discovery-view-switch{display:flex;gap:3px;background:#eaece4;padding:4px;border-radius:24px;flex-shrink:0}
+.discovery-view-switch button{min-height:36px;padding:6px 16px;border:0;border-radius:22px;background:transparent;color:#54635d;font:inherit;font-size:13px;cursor:pointer}
+.discovery-view-switch button[aria-pressed=true]{background:#fffef9;color:#223d33;box-shadow:0 1px 4px #20332912}
+.question-spiral{position:relative;display:flex;flex-direction:column}
+.spiral-field{height:max(580px,calc(100vh - 300px));position:relative;isolation:isolate;order:3}
+.question-orbit{max-width:860px;margin-inline:auto}
+.spiral-field::before,.spiral-field::after{content:"";position:absolute;left:0;right:0;height:32px;z-index:2;pointer-events:none}
+.spiral-field::before{top:0;background:linear-gradient(var(--paper,#f6f4ed),transparent)}
+.spiral-field::after{bottom:0;background:linear-gradient(transparent,var(--paper,#f6f4ed))}
+.question-orbit .infinite-spiral__item{border:1px solid #213c3012;background:#f2f3ea;box-shadow:0 12px 25px -16px #213c3050,0 3px 8px #213c3009;color:#233d34}
+/* The upstream projection already computes depth in JS. Flatten text layers to
+   avoid Chromium rasterizing Chinese glyphs into a blurry 3D texture. */
+.question-orbit .infinite-spiral__stage,.question-orbit .infinite-spiral__item{transform-style:flat;backface-visibility:visible}
+.question-orbit .infinite-spiral__item{will-change:auto}
+.question-orbit .infinite-spiral__item:hover,.question-orbit .infinite-spiral__item:focus-visible{border-color:#667e60;outline:2px solid #667e60;outline-offset:4px;z-index:200000!important;filter:none!important;opacity:1!important}
+.question-bubble{height:100%;display:flex;flex-direction:column;justify-content:center;padding:11px;background:#e6ecdb;text-align:left}
+.question-bubble[data-tone="1"]{background:#e4eae9}.question-bubble[data-tone="2"]{background:#f2e5d7}.question-bubble[data-tone="3"]{background:#ede8d6}.question-bubble[data-tone="4"]{background:#e8e5ed}
+.question-bubble h3{font-family:"Songti SC","Noto Serif CJK SC","SimSun",serif;font-size:12.5px;font-weight:500;line-height:1.5;overflow-wrap:anywhere;letter-spacing:0}
+.spiral-controls{position:absolute;bottom:8px;left:0;right:0;z-index:5;display:flex;align-items:center;justify-content:center;padding:6px;gap:30px;pointer-events:none}
+.spiral-controls>div,.spiral-controls>button,.spiral-controls>span{pointer-events:auto;background:#f6f4edf0;border-radius:30px}
+.spiral-controls button{font:inherit;cursor:pointer;min-width:44px;min-height:44px;background:transparent;color:#304e3b;border:1px solid #c9d2c1;border-radius:50%;transition:background .16s}
+.spiral-controls button:hover{background:#e3e9d9}.spiral-controls button:disabled{opacity:.4;cursor:default}
+.spiral-pagination{display:flex;align-items:center;gap:17px}.spiral-pagination>span{font-size:13px;font-variant-numeric:tabular-nums;min-width:52px;text-align:center}.spiral-pagination i{font-style:normal;color:#53634f}
+.spiral-controls .spiral-pause{display:flex;align-items:center;gap:10px;font-size:13px;border:0;border-radius:22px;padding:8px 14px}.spiral-pause>span{width:14px;text-align:center}.spiral-still{font-size:12px;color:#60705f}
+/* Desktop exploration reuses the existing horizontal topic navigation so the
+   original helix has the full reading area, rather than a sidebar-sized slot. */
+.is-spiral .discovery-intro{display:flex;align-items:baseline;justify-content:space-between;gap:24px;padding:22px 0 20px}
+.is-spiral .discovery-intro h1{font-size:30px}.is-spiral .discovery-intro>p{margin:0;font-size:14px}
+.is-spiral .discovery-layout{display:block}
+.is-spiral .topic-sidebar{position:static;margin:0 0 14px;padding:0}
+.is-spiral .topic-sidebar>h2,.is-spiral .topic-marker,.is-spiral .topic-sidebar>.browse-sources{display:none}
+.is-spiral .topic-nav{display:flex;flex-wrap:wrap;gap:6px}
+.is-spiral .topic-nav>a{height:36px;padding:0 12px;font-size:13px;gap:9px;border:1px solid transparent;border-radius:20px}
+.is-spiral .topic-nav>a>span{font-size:11px}.is-spiral .topic-nav>a[aria-current]{background:#e9edda;border-color:#d1d9bf}
+.is-spiral .discovery-toolbar{padding-bottom:10px}.is-spiral .discovery-pending{margin-top:8px}

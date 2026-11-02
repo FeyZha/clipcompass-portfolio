@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>整理状态 · ClipCompass | 视频知识库与学习助手</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/workspace/shell.css" />
+  <script src="/workspace/shell.js" defer></script>
+  <script src="/manage.js" defer></script>
+</head>
+<body class="secondary-page">
+  <a class="skip-link" href="#mainContent">跳到主要内容</a>
+  <header class="masthead">
+    <a class="brand" href="/" aria-label="ClipCompass | 视频知识库与学习助手 首页"><span class="brand-mark" aria-hidden="true">C</span><span><strong>ClipCompass</strong><small>视频知识库与学习助手</small></span></a>
+    <nav class="page-nav" aria-label="主导航"><a href="/">找知识</a><a href="/collection.html">我的收藏</a><a id="tasksNav" href="/manage.html#tasks" aria-current="page">整理状态</a><a id="settingsNav" href="/manage.html#settings">设置</a></nav>
+  </header>
+  <main class="manage-page" id="mainContent">
+    <header class="page-heading"><div><h1 id="pageTitle">整理状态</h1><p id="connectionStatus" class="promise" role="status">正在连接本机服务…</p></div><button id="refreshConnection" type="button" class="button-secondary">刷新连接</button></header>
+    <p id="actionNotice" class="notice" role="status" hidden></p>
+    <section id="tasksView" aria-label="收藏与整理">
+      <section class="panel" aria-labelledby="addHeading">
+        <h2 id="addHeading">收藏新视频</h2>
+        <form id="importForm">
+          <div class="form-field"><label for="videoURL">YouTube 视频链接</label><input id="videoURL" type="url" required maxlength="2000" placeholder="https://www.youtube.com/watch?v=…" disabled /></div>
+          <p id="importAvailability" class="notice warning" role="status" hidden></p>
+          <div class="form-actions"><button id="addVideo" class="button" type="submit" disabled>收藏并整理</button></div>
+        </form>
+      </section>
+      <section class="panel" aria-labelledby="tasksHeading">
+        <h2 id="tasksHeading">正在整理</h2><p id="taskSummary" role="status">连接后查看整理进度。</p>
+        <ul id="taskList" class="task-list"></ul><p id="emptyTasks">完成的视频会保留在「我的收藏」，并自动进入检索。</p>
+      </section>
+    </section>
+    <section id="settingsView" aria-label="偏好设置" hidden>
+      <section class="panel" aria-labelledby="connectionHeading"><h2 id="connectionHeading">本机连接</h2><p>当前地址：<span id="serviceOrigin"></span></p></section>
+      <section class="panel" aria-labelledby="obsidianHeading">
+        <h2 id="obsidianHeading">Obsidian 知识库</h2>
+        <p>单向导出章节笔记和带时间戳的原字幕，不覆盖已有笔记或个人批注。</p>
+        <p id="obsidianStatus" role="status">连接后查看同步状态。</p>
+        <form id="obsidianForm">
+          <div class="form-field"><label for="vaultPath">知识库文件夹完整路径</label><input id="vaultPath" type="text" required placeholder="D:\Notes\MyVault" disabled /></div>
+          <div class="form-actions"><button id="syncObsidian" class="button" type="submit" disabled>保存路径并同步</button><button id="disableObsidian" class="button-secondary" type="button" disabled>关闭自动同步</button></div>
+        </form>
+      </section>
+      <section class="panel" aria-labelledby="browserHeading"><h2 id="browserHeading">本浏览器记录</h2><p>清除当前收藏范围的问题草稿与最近报告，保留收藏、整理任务和已导出的笔记。</p><button id="clearReport" class="button-secondary" type="button" disabled>清除问题与报告</button></section>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "entry": "frontend/src/explore/main.tsx",
+  "outputs": [
+    "../library/static/explore/app.js.LEGAL.txt",
+    "../library/static/explore/app.js",
+    "../library/static/explore/app.css"
+  ]
+}

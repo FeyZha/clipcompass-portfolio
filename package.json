@@ -1,0 +1,9 @@
+{
+  "name": "clipcompass-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preview": "node scripts/preview.mjs 3203",
+    "build:demo": "node demo/scripts/build.mjs"
+  }
+}

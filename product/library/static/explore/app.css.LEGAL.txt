@@ -1,0 +1,11 @@
+/*! Raindrop.io MIT adaptation: co/bookmarks/item/view.module.styl, cover/view.module.styl, common/header. Fixed source: 94ba9cbb88002987ed49cbc3848c93d396ae47a1; originals in third-party/raindrop. */
+/*! Adapted from raindropio/app, MIT, 94ba9cbb88002987ed49cbc3848c93d396ae47a1.
+ * src/co/screen/basic/{themes,size}.module.css. Values converted from the
+ * upstream 40px rem scale to px; prefixes isolate them from the locked sphere.
+ * Original files and license: frontend/third-party/raindrop/.
+ */
+/*! Raindrop.io desktop adaptation, MIT, 94ba9cbb88002987ed49cbc3848c93d396ae47a1.
+ * Actual source: screen/splitview, common/header, common/list, common/button.
+ * Map upstream classes/variables to existing ClipCompass DOM and pixel units.
+ * Original sources and mapping: third-party/raindrop/.
+ */

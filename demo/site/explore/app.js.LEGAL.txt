@@ -1,0 +1,87 @@
+/*! Adapted from shadcn/ui sidebar.tsx and sidebar-01 (MIT).
+ * Source: ba1503c64472b82256d9de95e2e62c5901a38e8b.
+ * Keep the desktop slots and composition, with the upstream open/toggle,
+ * cookie and icon-collapse pattern. CSS is mapped to workspace-kimi.css.
+ * Read the saved cookie on entry and when returning from the other local port.
+ * No mobile sheet, keyboard shortcut or extra dependency is included.
+ * Original sources and license: frontend/third-party/shadcn-ui/.
+ */
+/*!
+ * CPU adaptation of ARKx / Tiago Canzian's Interactive Particles Music Visualizer.
+ * MIT, https://github.com/tgcnzn/Interactive-Particles-Music-Visualizer
+ * Source afe366de4c10e15f627958d7893ab21da8290ea8, entities/glsl/vertex.glsl.
+ * Simplex noise: Ian McEwan / Ashima Arts, MIT. Full notices in third-party/ark-particles.
+ */
+/*!
+ * Adapted from Three.js r170 examples (MIT):
+ * webgpu_tsl_compute_attractors_particles.html (gravity and cross-axis force)
+ * webgl_buffergeometry_drawrange.html (distance/degree-limited connections)
+ * Copyright © 2010-2024 three.js authors. Full source and license:
+ * frontend/third-party/three-orbit-fields/.
+ */
+/*! Adapted from Magic UI Marquee, MIT, Copyright (c) Magic UI.
+ * Source/complete license: frontend/third-party/magicui-marquee. */
+
+Bundled license information:
+
+react/cjs/react.production.js:
+  /**
+   * @license React
+   * react.production.js
+   *
+   * Copyright (c) Meta Platforms, Inc. and affiliates.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE file in the root directory of this source tree.
+   */
+
+scheduler/cjs/scheduler.production.js:
+  /**
+   * @license React
+   * scheduler.production.js
+   *
+   * Copyright (c) Meta Platforms, Inc. and affiliates.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE file in the root directory of this source tree.
+   */
+
+react-dom/cjs/react-dom.production.js:
+  /**
+   * @license React
+   * react-dom.production.js
+   *
+   * Copyright (c) Meta Platforms, Inc. and affiliates.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE file in the root directory of this source tree.
+   */
+
+react-dom/cjs/react-dom-client.production.js:
+  /**
+   * @license React
+   * react-dom-client.production.js
+   *
+   * Copyright (c) Meta Platforms, Inc. and affiliates.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE file in the root directory of this source tree.
+   */
+
+react/cjs/react-jsx-runtime.production.js:
+  /**
+   * @license React
+   * react-jsx-runtime.production.js
+   *
+   * Copyright (c) Meta Platforms, Inc. and affiliates.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE file in the root directory of this source tree.
+   */
+
+three/build/three.module.js:
+  /**
+   * @license
+   * Copyright 2010-2024 Three.js Authors
+   * SPDX-License-Identifier: MIT
+   */

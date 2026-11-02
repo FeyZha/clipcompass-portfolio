@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "videos": {
+    "bHcJCp2Fyxs": {
+      "title": "【機器學習2021】預測本頻道觀看人數 (下) - 深度學習基本概念簡介",
+      "duration": 3515,
+      "chapter_count": 33,
+      "summary": "以频道观看人数预测为例，说明简单模型为什么不够用，以及如何逐步构建和训练神经网络。最后比较不同模型的预测效果。",
+      "display_title": "【机器学习2021】预测本频道观看人数 (下) - 深度学习基本概念简介"
+    },
+    "zzbr1h9sF54": {
+      "title": "【機器學習2021】類神經網路訓練不起來怎麼辦 (二)： 批次 (batch) 與動量 (momentum)",
+      "duration": 1858,
+      "chapter_count": 14,
+      "summary": "讨论训练神经网络时，批次大小和动量为什么会影响学习效果。结合实验比较不同设置，解释如何让训练更稳定、有效。",
+      "display_title": "【机器学习2021】类神经网路训练不起来怎么办 (二)： 批次 (batch) 与动量 (momentum)"
+    },
+    "Ye018rCVvOo": {
+      "title": "【機器學習2021】預測本頻道觀看人數 (上) - 機器學習基本概念簡介",
+      "duration": 2999,
+      "chapter_count": 19,
+      "summary": "用预测频道观看人数的例子介绍机器学习：如何建立模型、衡量误差、调整参数，并检查预测是否有效。",
+      "display_title": "【机器学习2021】预测本频道观看人数 (上) - 机器学习基本概念简介"
+    },
+    "WeHM2xpYQpw": {
+      "title": "【機器學習2021】機器學習任務攻略",
+      "duration": 3083,
+      "chapter_count": 26,
+      "summary": "介绍面对机器学习任务时如何找问题、选改进方向，区分模型能力、训练困难和过拟合，并讨论如何可靠地评估效果。",
+      "display_title": "【机器学习2021】机器学习任务攻略"
+    },
+    "QW6uINn7uGk": {
+      "title": "【機器學習2021】類神經網路訓練不起來怎麼辦 (一)： 局部最小值 (local minima) 與鞍點 (saddle point)",
+      "duration": 2025,
+      "chapter_count": 9,
+      "summary": "解释神经网络训练为什么可能卡住，比较局部最小值与鞍点，并介绍判断和应对这些情况的思路。",
+      "display_title": "【机器学习2021】类神经网路训练不起来怎么办 (一)： 局部最小值 (local minima) 与鞍点 (saddle point)"
+    },
+    "HYUXEeh3kwY": {
+      "title": "【機器學習2021】類神經網路訓練不起來怎麼辦 (三)：自動調整學習速率 (Learning Rate)",
+      "duration": 2262,
+      "chapter_count": 13,
+      "summary": "讨论学习速率为什么影响训练，介绍自动调整学习速率的方法，以及训练过程中安排速率变化的思路。",
+      "display_title": "【机器学习2021】类神经网路训练不起来怎么办 (三)：自动调整学习速率 (Learning Rate)"
+    },
+    "O2VkP8dJ5FE": {
+      "title": "【機器學習2021】類神經網路訓練不起來怎麼辦 (四)：損失函數 (Loss) 也可能有影響",
+      "duration": 1167,
+      "chapter_count": 12,
+      "summary": "从分类任务出发，说明模型如何表达预测结果，以及选择不同损失函数为什么会影响训练效果。",
+      "display_title": "【机器学习2021】类神经网路训练不起来怎么办 (四)：损失函数 (Loss) 也可能有影响"
+    },
+    "BABPWOkSbLE": {
+      "title": "【機器學習2021】類神經網路訓練不起來怎麼辦 (五)： 批次標準化 (Batch Normalization) 簡介",
+      "duration": 1855,
+      "chapter_count": 20,
+      "summary": "介绍批次标准化为什么有助于训练、它如何调整网络中的数值范围，以及使用时需要注意的问题。",
+      "display_title": "【机器学习2021】类神经网路训练不起来怎么办 (五)： 批次标准化 (Batch Normalization) 简介"
+    },
+    "OP5HcXJg2Aw": {
+      "title": "【機器學習2021】卷積神經網路 (Convolutional Neural Networks, CNN)",
+      "duration": 3339,
+      "chapter_count": 33,
+      "summary": "这节课讲的是卷积神经网络（CNN）：它为什么适合识别图片，以及它如何工作。讲者从普通网络的不足讲起，逐步解释 CNN 的设计，再介绍典型架构、应用和局限。",
+      "display_title": "【机器学习2021】卷积神经网路 (Convolutional Neural Networks, CNN)"
+    },
+    "hYdO9CscNes": {
+      "title": "【機器學習2021】自注意力機制 (Self-attention) (上)",
+      "duration": 1698,
+      "chapter_count": 12,
+      "summary": "介绍处理文字、语音等长短不一的序列时会遇到什么问题，以及自注意力如何结合整个序列的信息。",
+      "display_title": "【机器学习2021】自注意力机制 (Self-attention) (上)"
+    },
+    "gmsMY5kc-zw": {
+      "title": "【機器學習2021】自注意力機制 (Self-attention) (下)",
+      "duration": 2757,
+      "chapter_count": 13,
+      "summary": "继续解释自注意力的运算和位置信息，并比较它与卷积网络、循环网络的关系及使用上的取舍。",
+      "display_title": "【机器学习2021】自注意力机制 (Self-attention) (下)"
+    },
+    "n9TlOhRjYoc": {
+      "title": "【機器學習2021】Transformer (上)",
+      "duration": 1968,
+      "chapter_count": 17,
+      "summary": "从语音识别、翻译等序列转换任务出发，介绍编码器与解码器的分工，再展开 Transformer 编码器的结构。",
+      "display_title": "【机器学习2021】Transformer (上)"
+    },
+    "4OWp0wDu6Xw": {
+      "title": "【機器學習2021】生成式對抗網路 (Generative Adversarial Network, GAN) (一) – 基本概念介紹",
+      "duration": 2348,
+      "chapter_count": 14,
+      "summary": "介绍生成模型要解决什么问题，以及 GAN 中生成器和判别器如何相互配合，逐步学习生成内容。",
+      "display_title": "【机器学习2021】生成式对抗网路 (Generative Adversarial Network, GAN) (一) – 基本概念介绍"
+    },
+    "jNY1WBb8l4U": {
+      "title": "【機器學習2021】生成式對抗網路 (Generative Adversarial Network, GAN) (二) – 理論介紹與WGAN",
+      "duration": 2800,
+      "chapter_count": 13,
+      "summary": "进一步讨论 GAN 的训练目标及训练困难，介绍 WGAN 如何换一个角度比较生成结果与真实数据。",
+      "display_title": "【机器学习2021】生成式对抗网路 (Generative Adversarial Network, GAN) (二) – 理论介绍与WGAN"
+    },
+    "wulqhgnDr7E": {
+      "title": "【機器學習2021】生成式對抗網路 (Generative Adversarial Network, GAN) (四) – Cycle GAN",
+      "duration": 1420,
+      "chapter_count": 12,
+      "summary": "讨论没有成对样本时如何做内容转换，介绍 CycleGAN 的思路、应用与限制。",
+      "display_title": "【机器学习2021】生成式对抗网路 (Generative Adversarial Network, GAN) (四) – Cycle GAN"
+    },
+    "WY_E0Sd4K80": {
+      "title": "【機器學習2021】自督導式學習 (Self-supervised Learning) (四) – GPT的野望",
+      "duration": 1023,
+      "chapter_count": 10,
+      "summary": "介绍 GPT 如何通过预测后续内容学习，以及如何利用提示和少量例子完成任务，并扩展讨论图像、语音中的自监督学习。",
+      "display_title": "【机器学习2021】自督导式学习 (Self-supervised Learning) (四) – GPT的野望"
+    },
+    "3oHlf8-J3Nc": {
+      "title": "【機器學習2021】自編碼器 (Auto-encoder) (上) – 基本概念",
+      "duration": 1140,
+      "chapter_count": 10,
+      "summary": "介绍自编码器如何把复杂输入压缩成简洁表示，再尝试还原，并讨论这种学习方式及去噪等变体。",
+      "display_title": "【机器学习2021】自编码器 (Auto-encoder) (上) – 基本概念"
+    },
+    "JZvEzb5PV3U": {
+      "title": "【機器學習2021】自編碼器 (Auto-encoder) (下) – 領結變聲器與更多應用",
+      "duration": 1835,
+      "chapter_count": 7,
+      "summary": "介绍自编码器在语音转换、内容生成、压缩和异常检测等任务中的应用，说明不同表示方式能带来什么用途。",
+      "display_title": "【机器学习2021】自编码器 (Auto-encoder) (下) – 领结变声器与更多应用"
+    },
+    "xGQKhbjrFRk": {
+      "title": "【機器學習2021】來自人類的惡意攻擊 (Adversarial Attack) (上) – 基本概念",
+      "duration": 1789,
+      "chapter_count": 11,
+      "summary": "介绍对抗攻击是什么、微小改动为什么可能欺骗模型，以及如何把寻找攻击样本写成一个优化问题。",
+      "display_title": "【机器学习2021】来自人类的恶意攻击 (Adversarial Attack) (上) – 基本概念"
+    },
+    "z-Q9ia5H2Ig": {
+      "title": "【機器學習2021】來自人類的惡意攻擊 (Adversarial Attack) (下) – 類神經網路能否躲過人類深不見底的惡意？",
+      "duration": 2793,
+      "chapter_count": 21,
+      "summary": "继续讨论不了解模型内部时如何发起攻击、攻击在现实环境中的表现，以及常见防御方法的局限。",
+      "display_title": "【机器学习2021】来自人类的恶意攻击 (Adversarial Attack) (下) – 类神经网路能否躲过人类深不见底的恶意？"
+    },
+    "WQY85vaQfTI": {
+      "title": "【機器學習2021】機器學習模型的可解釋性 (Explainable ML) (上) – 為什麼類神經網路可以正確分辨寶可夢和數碼寶貝呢？",
+      "duration": 2948,
+      "chapter_count": 30,
+      "summary": "讨论为什么需要解释模型的判断，以及如何通过遮挡、重要性分析等方法观察模型使用了哪些信息。",
+      "display_title": "【机器学习2021】机器学习模型的可解释性 (Explainable ML) (上) – 为什么类神经网路可以正确分辨宝可梦和数码宝贝呢？"
+    },
+    "0ayIPqbdHYQ": {
+      "title": "【機器學習2021】機器學習模型的可解釋性 (Explainable ML) (下) –機器心中的貓長什麼樣子？",
+      "duration": 1365,
+      "chapter_count": 13,
+      "summary": "从整体角度观察模型学到了什么，介绍生成解释图像、用简单模型近似复杂模型等方法及其限制。",
+      "display_title": "【机器学习2021】机器学习模型的可解释性 (Explainable ML) (下) –机器心中的猫长什么样子？"
+    },
+    "Mnk_oUrgppM": {
+      "title": "【機器學習2021】概述領域自適應 (Domain Adaptation)",
+      "duration": 2072,
+      "chapter_count": 18,
+      "summary": "介绍训练数据与实际使用环境不一致时怎么办，讨论领域自适应中如何利用目标环境的数据调整模型。",
+      "display_title": "【机器学习2021】概述领域自适应 (Domain Adaptation)"
+    },
+    "XWukX-ayIrs": {
+      "title": "【機器學習2021】概述增強式學習 (Reinforcement Learning, RL) (一) – 增強式學習跟機器學習一樣都是三個步驟",
+      "duration": 2701,
+      "chapter_count": 20,
+      "summary": "用与环境互动、获得奖励的过程介绍强化学习，说明模型要学什么、如何评价表现，以及它与一般机器学习的联系。",
+      "display_title": "【机器学习2021】概述增强式学习 (Reinforcement Learning, RL) (一) – 增强式学习跟机器学习一样都是三个步骤"
+    },
+    "US8DFaAZcp4": {
+      "title": "【機器學習2021】概述增強式學習 (Reinforcement Learning, RL) (二) – Policy Gradient 與修課心情",
+      "duration": 2474,
+      "chapter_count": 20,
+      "summary": "介绍如何根据奖励调整行动策略，逐步讨论奖励归因和数据收集中的困难，并引出后续的策略优化方法。",
+      "display_title": "【机器学习2021】概述增强式学习 (Reinforcement Learning, RL) (二) – Policy Gradient 与修课心情"
+    },
+    "kk6DqWreLeU": {
+      "title": "【機器學習2021】概述增強式學習 (Reinforcement Learning, RL) (三) - Actor-Critic",
+      "duration": 2080,
+      "chapter_count": 14,
+      "summary": "介绍 Actor-Critic 中行动者与评价者的分工，以及如何利用评价者的反馈帮助改进行动策略。",
+      "display_title": "【机器学习2021】概述增强式学习 (Reinforcement Learning, RL) (三) - Actor-Critic"
+    },
+    "73YyF1gmIus": {
+      "title": "【機器學習2021】概述增強式學習 (Reinforcement Learning, RL) (四) - 回饋非常罕見的時候怎麼辦？機器的望梅止渴",
+      "duration": 1055,
+      "chapter_count": 14,
+      "summary": "讨论奖励很少时如何让机器继续学习，介绍奖励塑形、好奇心等引导探索的思路与实例。",
+      "display_title": "【机器学习2021】概述增强式学习 (Reinforcement Learning, RL) (四) - 回馈非常罕见的时候怎么办？机器的望梅止渴"
+    },
+    "75rZwxKBAf0": {
+      "title": "【機器學習2021】概述增強式學習 (Reinforcement Learning, RL) (五) - 如何從示範中學習？逆向增強式學習 (Inverse RL)",
+      "duration": 1627,
+      "chapter_count": 9,
+      "summary": "讨论没有明确奖励时如何从示范中学习，比较行为模仿与逆向强化学习，并介绍实际应用。",
+      "display_title": "【机器学习2021】概述增强式学习 (Reinforcement Learning, RL) (五) - 如何从示范中学习？逆向增强式学习 (Inverse RL)"
+    },
+    "rWF9sg5w6Zk": {
+      "title": "【機器學習2021】機器終身學習 (Life Long Learning, LL) (一) - 為什麼今日的人工智慧無法成為天網？災難性遺忘(Catastrophic Forgetting)",
+      "duration": 1919,
+      "chapter_count": 16,
+      "summary": "介绍持续学习新任务时为什么会遗忘旧知识，并讨论终身学习的任务设定、相关概念和评估方式。",
+      "display_title": "【机器学习2021】机器终身学习 (Life Long Learning, LL) (一) - 为什么今日的人工智慧无法成为天网？灾难性遗忘(Catastrophic Forgetting)"
+    },
+    "Y9Jay_vxOsM": {
+      "title": "【機器學習2021】機器終身學習 (Life Long Learning, LL) (二) - 災難性遺忘(Catastrophic Forgetting)的克服之道",
+      "duration": 2199,
+      "chapter_count": 13,
+      "summary": "介绍缓解灾难性遗忘的不同思路，包括保护重要参数、安排模型结构和重播旧任务经验。",
+      "display_title": "【机器学习2021】机器终身学习 (Life Long Learning, LL) (二) - 灾难性遗忘(Catastrophic Forgetting)的克服之道"
+    },
+    "utk3EnAUh-g": {
+      "title": "【機器學習2021】神經網路壓縮 (Network Compression) (一) - 類神經網路剪枝 (Pruning) 與大樂透假說 (Lottery Ticket Hypothesis)",
+      "duration": 1771,
+      "chapter_count": 13,
+      "summary": "介绍为什么要压缩神经网络，以及如何通过剪枝保留较小网络；结合大乐透假说讨论初始化与训练的关系。",
+      "display_title": "【机器学习2021】神经网路压缩 (Network Compression) (一) - 类神经网路剪枝 (Pruning) 与大乐透假说 (Lottery Ticket Hypothesis)"
+    },
+    "xrlbLPaq_Og": {
+      "title": "【機器學習2021】神經網路壓縮 (Network Compression) (二) - 從各種不同的面向來壓縮神經網路",
+      "duration": 3406,
+      "chapter_count": 37,
+      "summary": "从知识蒸馏、数值精简和结构设计等角度介绍网络压缩，讨论如何组合不同方法减小模型。",
+      "display_title": "【机器学习2021】神经网路压缩 (Network Compression) (二) - 从各种不同的面向来压缩神经网路"
+    }
+  }
+}

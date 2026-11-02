@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>我的收藏 · ClipCompass | 视频知识库与学习助手</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/workspace/shell.css" />
+  <script>if(location.port==='14854')location.replace('http://127.0.0.1:14855/#view=collection&filter=readable');</script>
+  <script src="/workspace/shell.js" defer></script>
+  <script src="/collection.js" defer></script>
+</head>
+<body class="secondary-page">
+  <a class="skip-link" href="#mainContent">跳到主要内容</a>
+  <header class="masthead">
+    <a class="brand" href="/" aria-label="ClipCompass | 视频知识库与学习助手 首页"><span class="brand-mark" aria-hidden="true">C</span><span><strong>ClipCompass</strong><small>视频知识库与学习助手</small></span></a>
+    <nav class="page-nav" aria-label="主导航"><a href="/">找知识</a><a href="/collection.html" aria-current="page">我的收藏</a><a href="/manage.html#tasks">整理状态</a><a href="/manage.html#settings">设置</a></nav>
+  </header>
+  <main class="collection-page" id="mainContent">
+    <header class="collection-heading">
+      <div><h1>可检索与阅读</h1><p id="libraryTitle" class="promise">正在读取当前收藏…</p></div>
+      <div class="collection-total"><strong id="videoTotal">—</strong><span>个收藏视频</span><small id="libraryDuration"></small></div>
+    </header>
+    <nav class="ws-library-tabs ws-static-tabs" aria-label="收藏范围"><a href="http://127.0.0.1:14855/#view=collection">全部视频</a><span aria-current="page">可检索与阅读</span></nav>
+    <section aria-label="收藏视频列表">
+      <div class="collection-tools">
+        <div><label for="videoFilter">查找标题或作者</label><input id="videoFilter" type="search" placeholder="搜索标题或作者" disabled /></div>
+        <button id="clearFilter" type="button" disabled>清空筛选</button>
+      </div>
+      <p id="listStatus" role="status" aria-live="polite">正在加载视频列表…</p>
+      <button id="retryLibrary" type="button" hidden>重新加载</button>
+      <ol id="videoList" class="video-list"></ol>
+      <p id="emptyLibrary" class="collection-empty" hidden></p>
+    </section>
+  </main>
+</body>
+</html>
